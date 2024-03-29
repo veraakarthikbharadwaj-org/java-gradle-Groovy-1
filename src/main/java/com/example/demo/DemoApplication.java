@@ -2,12 +2,16 @@ package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-@SpringBootApplication
-public class DemoApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
-	}
+import java.io.IOException;
+ 
+public class Example1 {
+    public Example1(String arg) throws IOException {    
+        foo(arg);
+    }
+     
+    public void foo(String arg) throws IOException {
+        Runtime.getRuntime().exec(arg);
+    }           
+}
 
 }
