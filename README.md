@@ -1,1 +1,1 @@
-JAVA Gradle Groovy Project - scan 
+JAVA Gradle Groovy Project - scan 1
